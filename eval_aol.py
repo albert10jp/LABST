@@ -7,7 +7,7 @@ import numpy as np
 
 from utils.treaps import Treap
 from utils.redblack import RedBlackTree
-from utils.treaprb import TreapRB
+# from utils.treaprb import TreapRB
 from utils.avl import AVLTree
 from utils.splaytree import SplayTree
 from utils.btree import BTree
