@@ -4,6 +4,7 @@
 from utils.aol_utils import get_data_aol_query_list
 
 import numpy as np
+import pickle
 
 from utils.treaps import Treap
 from utils.redblack import RedBlackTree
