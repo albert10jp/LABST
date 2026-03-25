@@ -142,8 +142,8 @@ if __name__ == '__main__':
     x = [1,2,5]
     trials = 20
 
-    data = "PATH_TO_PREPROCESSED_DATA"
-    res =  "PATH_TO_PREDICTION_FILE"
+    data = "./data/aol_00XX_len60.npz" # PATH_TO_PREPROCESSED_DATA
+    res =  "./predictions/pred_exp20_ip_rnn_10min_r1-p2-h2_rmin65_ru64_bs512_ep350_1359_res.npz" # PATH_TO_PREDICTION_FILE
 
     queries, counts = get_data_aol_query_list([data])
 
